@@ -18,7 +18,9 @@ function App() {
       <h1>Click Counter</h1><div/>
       <div class="countButton">
       <Button text={text} onClick={ ()=> {countUp()} }/>
-      <Count count={count}/>
+      </div>
+      <div class="countNum">
+        <Count count={count}/>
       </div>
     </div>
   );
